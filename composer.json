@@ -1,5 +1,5 @@
 {
-  "name": "open-telemetry/exporter-otlp",
+  "name": "dealroadshow/exporter-otlp",
   "description": "OTLP exporter for OpenTelemetry.",
   "keywords": ["opentelemetry", "otel", "tracing", "metrics", "exporter", "otlp", "grpc", "http"],
   "type": "library",
@@ -12,7 +12,7 @@
   "license": "Apache-2.0",
   "authors": [
     {
-      "name": "opentelemetry-php contributors",
+      "name": "fork opentelemetry-php contributors",
       "homepage": "https://github.com/open-telemetry/opentelemetry-php/graphs/contributors"
     }
   ],
