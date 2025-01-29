@@ -34,6 +34,7 @@ final class SpanExporter implements SpanExporterInterface
 
     public function export(iterable $batch, ?CancellationInterface $cancellation = null): FutureInterface
     {
+        fastcgi_finish_request();
         return $this->transport
             ->send($this->serializer->serialize((new SpanConverter($this->serializer))->convert($batch)), $cancellation)
             ->map(function (?string $payload): bool {
