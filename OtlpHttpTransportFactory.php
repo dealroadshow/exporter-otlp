@@ -18,7 +18,7 @@ class OtlpHttpTransportFactory implements TransportFactoryInterface
         array $headers = [],
         $compression = null,
         float $timeout = 10.,
-        int $retryDelay = 100,
+        int $retryDelay = 200,
         int $maxRetries = 1,
         ?string $cacert = null,
         ?string $cert = null,
